@@ -1,0 +1,7 @@
+<h1>Lista zadań</h1>
+<%- @todos.each do |t| %>
+<h2> <%= t.title %> </h2>
+<p> <%= t.content %> </p>
+<%- end %>
+
+
